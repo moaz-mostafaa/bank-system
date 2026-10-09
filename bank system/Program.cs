@@ -195,7 +195,8 @@ class program
             }
         }
     }
-
+    //
+    //
     static void DeleteAccount()
     {
         Console.WriteLine(" enter your account id you want to remove ");
@@ -217,12 +218,10 @@ class program
 
     static void ExitProgram()
     {
-        Console.WriteLine("Goodbye!");
-        Environment.Exit(0);
+        Console.WriteLine(" Goodbye! ");
+        Environment.Exit( 0 );
     }
-
-
-
+    
     static void Main()
     {
 
